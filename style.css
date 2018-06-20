@@ -1,0 +1,258 @@
+/*
+Theme Name: Stephen Czekalski Theme
+Author: Stephen Czekalski
+Description: The standard theme for stephencz.com
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+html, body
+{
+  background-color: #FEFEFE;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: 900; }
+
+h1 { font-size: 5.6em; }
+h2 { font-size: 4.6em; }
+h3 { font-size: 4.0em; }
+h4 { font-size: 3.6em; }
+h5 { font-size: 3.0em; }
+h6 { font-size: 2.6em; }
+
+
+p
+{
+  color: #000;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 2em;
+
+  padding-bottom: 1em;
+}
+
+a:active,
+a:visited,
+a:link
+{
+  color: #4794e6;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #afafaf;
+}
+
+pre
+{
+  font-size: 1.6em;
+}
+
+/*******************************************************************/
+/*                          HEADER STYLES                            */
+/*******************************************************************/
+.header-title
+{
+  font-weight: 900;
+  font-size: 7em;
+}
+
+.header-title a:visited,
+.header-title a:active,
+.header-title a:hover,
+.header-title a:link
+{
+  color: #000;
+  text-decoration: none;
+}
+
+.about-wrapper{}
+
+.resources
+{
+  text-align: left;
+}
+
+.resources-header
+{
+  font-weight: 400;
+  font-size: 2em;
+}
+
+ul.resources-list
+{
+  list-style: none;
+  margin-bottom: 0;
+}
+
+ul.resources-list li
+{
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+@media (max-width: 767.98px)
+{
+
+  .resources
+  {
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+.content-wrapper{}
+
+.post-title
+{
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+
+.post-title a:active,
+.post-title a:visited,
+.post-title a:link
+{
+  color: #000;
+  text-decoration: none;
+}
+
+.post-title a:hover
+{
+  color: #afafaf;
+}
+
+.post-date
+{
+  color: #afafaf;
+
+  font-size: 2em;
+  font-weight: 400;
+
+  padding-left: 3px;
+}
+
+.note-left,
+.note-right
+{
+  border: 1px solid #dcdcdc;
+  background-color: #fbfbfb;
+  color: #000;
+
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+  max-width: 200px;
+}
+
+.note-left
+{
+  float: left;
+  margin-right: 20px;
+}
+
+.note-right
+{
+  float: right;
+  margin-left: 20px;
+}
+
+.note-header
+{
+  float: left;
+
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+
+  padding-bottom: 10px;
+}
+
+.note-content
+{
+  float: left;
+
+  font-size: 0.75em;
+  line-height: 2em;
+  text-align: center;
+}
+
+@media (max-width: 767.98px)
+{
+  .note-left,
+  .note-right
+  {
+    display: block;
+    float: left;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+
+    max-width: 100%;
+
+  }
+}
+
+.projects-wrapper{}
+
+.projects{}
+
+.footer-wrapper
+{
+  min-height: 240px;
+}
+
+/*******************************************************************/
+/*                    FIXES AND FOMRATTING STYLES                  */
+/*******************************************************************/
+.padding-top-xs{ padding-top: 10px; }
+.padding-top-s{ padding-top: 20px; }
+.padding-top-m{ padding-top: 40px; }
+.padding-top-l{ padding-top: 60px; }
+.padding-top-xl{ padding-top: 80px; }
+
+.padding-bottom-xs{ padding-bottom: 10px; }
+.padding-bottom-s{ padding-bottom: 20px; }
+.padding-bottom-m{ padding-bottom: 40px; }
+.padding-bottom-l{ padding-bottom: 60px; }
+.padding-bottom-xl{ padding-bottom: 80px; }
+
+.margin-top-xs{ margin-top: 10px; }
+.margin-top-s{ margin-top: 20px; }
+.margin-top-m{ margin-top: 40px; }
+.margin-top-l{ margin-top: 60px; }
+.margin-top-xl{ margin-top: 80px; }
+
+.margin-bottom-xs{ margin-bottom: 10px; }
+.margin-bottom-s{ margin-bottom: 20px; }
+.margin-bottom-m{ margin-bottom: 40px; }
+.margin-bottom-l{ margin-bottom: 60px; }
+.margin-bottom-xl{ margin-bottom: 80px; }
+
+.underline-light{ border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.underline-medium{ border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+.underline-dark{ border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+
+.height-quarter-vh { min-height: 25vh; }
+.height-half-vh { min-height: 50vh; }
+.height-threeq-vh { min-height: 75vh; }
+.height-full-vh { min-height: 100vh; }
+
+.hljs
+{
+  border: 1px solid #dcdcdc;
+}
