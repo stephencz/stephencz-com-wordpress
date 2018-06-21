@@ -77,6 +77,86 @@ pre
   text-decoration: none;
 }
 
+.navbar
+{
+  background-color: #FEFEFE;
+  border-bottom: 1px solid #f5f5f5;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar ul
+{
+  padding-left: 20px;
+  margin: 0px;
+}
+
+.navbar ul li
+{
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+  display: block;
+  float: left;
+
+  font-size: 1.5em;
+  text-align: center;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar .item
+{
+  font-weight: 300;
+}
+
+.navbar ul li a:active,
+.navbar ul li a:visited,
+.navbar ul li a:link
+{
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover
+{
+  text-decoration: none;
+}
+
+@media (max-width: 790.98px)
+{
+  .navbar ul li
+  {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 575.98px)
+{
+  .navbar ul
+  {
+    padding-left: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .navbar ul li
+  {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 1.5em;
+    float: none
+  }
+}
+
+
+.navbar ul li:hover
+{
+  background-color: #e5e5e5;
+}
+
 .about-wrapper{}
 
 .resources
@@ -99,7 +179,7 @@ ul.resources-list
 ul.resources-list li
 {
   font-weight: 400;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 @media (max-width: 767.98px)

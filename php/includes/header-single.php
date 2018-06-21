@@ -26,10 +26,13 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-10 mx-auto underline-light">
-        <div class="header-title">
-          <a href="<?php echo get_bloginfo('wpurl'); ?>"><?php echo get_bloginfo('title'); ?></a>
-        </div>
+      <div class="col-md-10 mx-auto navbar">
+        <ul>
+          <li style="font-weight:900;"><a href="http://stephencz.com">Stephen Czekalski</a></li>
+          <li class="item"><a href="">Latest Post</a></li>
+          <li class="item"><a href="">Archive by Date</a></li>
+          <li class="item"><a href="">Archive by Topic</a></li>
+        </ul>
       </div>
     </div>
   </div>

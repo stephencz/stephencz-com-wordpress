@@ -2,7 +2,7 @@
 
 <div class="container padding-top-xl">
   <div class="row">
-    <div class="col-md-8 mx-auto">
+    <div class="col-md-10 mx-auto">
 
       <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post();
