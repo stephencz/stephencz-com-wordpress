@@ -4,7 +4,7 @@
 <div class="content-wrapper padding-top-m padding-bottom-xl">
 <div class="container">
   <div class="row">
-    <div class="col-md-10 mx-auto">
+    <div class="col-md-9 mx-auto">
 
       <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post();

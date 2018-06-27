@@ -1,8 +1,8 @@
-<?php get_template_part( 'php/includes/header-single' ); ?>
+<?php get_template_part( 'php/includes/header' ); ?>
 
 <div class="container padding-top-xl">
   <div class="row">
-    <div class="col-md-10 mx-auto">
+    <div class="col-md-9 mx-auto">
 
       <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post();
