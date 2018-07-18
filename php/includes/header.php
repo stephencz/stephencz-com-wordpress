@@ -25,9 +25,10 @@
 </head>
 <body>
 
-  <div class="container underline-light">
+  <div class="header-wrapper underline-light">
+  <div class="container">
     <div class="row">
-      <div class="col-md-12 mx-auto">
+      <div class="col-md-10 mx-auto">
        <nav class="navbar navbar-light navbar-expand-md">
           <a class="navbar-brand" href="http://www.stephencz.com">Stephen Czekalski</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +55,7 @@
       </div>
     </div>
   </div>
+ </div>
 
   <!-- OLD HEADER
   <div class="container">

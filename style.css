@@ -6,6 +6,9 @@ Version: 0.0.1
 Tags: bootstrap
 */
 
+/*******************************************************************/
+/* HTML                                                            */
+/*******************************************************************/
 html, body
 {
   background-color: #FEFEFE;
@@ -23,18 +26,17 @@ html, body
 
 h1, h2, h3, h4, h5, h6 { font-weight: 900; }
 
-h1 { font-size: 4.5em; }
-h2 { font-size: 4.0em; }
-h3 { font-size: 3.5em; }
-h4 { font-size: 3.0em; }
-h5 { font-size: 2.5em; }
-h6 { font-size: 2.0em; }
-
+h1 { font-size: 4.0em; }
+h2 { font-size: 3.5em; }
+h3 { font-size: 3.0em; }
+h4 { font-size: 2.5em; }
+h5 { font-size: 2.0em; }
+h6 { font-size: 1.8em; }
 
 p
 {
   color: #000;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 400;
   line-height: 2em;
 
@@ -56,9 +58,34 @@ a:hover
 
 pre { font-size: 1.4em; }
 
+blockquote
+{
+  background-color: #f5f5f5;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+blockquote p
+{
+  color: #8e8e8e;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.6em;
+}
+
+em
+{
+  font-style: italic;
+}
+
 /*******************************************************************/
-/*                            BASE STYLES                          */
+/* BASE                                                            */
 /*******************************************************************/
+.header-wrapper
+{
+  background-color: #f5f5f5;
+}
+
 .about-wrapper{}
 
 .content-wrapper{}
@@ -71,12 +98,11 @@ pre { font-size: 1.4em; }
 }
 
 /*******************************************************************/
-/*                            POST STYLES                          */
+/* POST                                                            */
 /*******************************************************************/
 .post-title
 {
   font-weight: 800;
-  text-align: center;
   padding-bottom: 5px;
 }
 
@@ -96,13 +122,27 @@ pre { font-size: 1.4em; }
 .post-date
 {
   color: #afafaf;
-  text-align: center;
   font-size: 2em;
   font-weight: 400;
-
   padding-left: 3px;
+  display: inline-block;
 }
 
+.post-category
+{
+  display: inline-block;
+  border-radius: 25px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #5f5f5f;
+  background-color: #f3f3f3;
+}
+
+
+/*
 .note-left,
 .note-right
 {
@@ -138,6 +178,7 @@ pre { font-size: 1.4em; }
   text-align: center;
 
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .note-content
@@ -165,9 +206,10 @@ pre { font-size: 1.4em; }
 
   }
 }
+*/
 
 /*******************************************************************/
-/*                    FIXES AND FOMRATTING STYLES                  */
+/* FOMRATTING                                                      */
 /*******************************************************************/
 .padding-top-xs{ padding-top: 10px; }
 .padding-top-s{ padding-top: 20px; }
@@ -206,24 +248,42 @@ pre { font-size: 1.4em; }
 .height-threeq-vh { min-height: 75vh; }
 .height-full-vh { min-height: 100vh; }
 
-.small-code
+.font-thin { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-bold { font-weight: 600; }
+.font-dark { font-weight: 900; }
+
+/*******************************************************************/
+/* SPAN                                                            */
+/*******************************************************************/
+
+span.keyword
 {
-  font-size: 1.2em;
-  padding-right: 20px;
+  color: #db3434;
+  font-weight: 300;
 }
 
-.medium-code
+span.type
 {
-  font-size: 1.4em;
-  padding-right: 20px;
+  color: #2e953a;
+  font-weight: 300;
 }
 
-.large-code
+span.name
 {
-  font-size: 1.6em;
-  padding-right: 20px;
+  color: #515151;
+  font-weight: 300;
 }
 
+span.value
+{
+  color: #515151;
+  font-weight: 300;
+}
+
+/*******************************************************************/
+/* HIGHLIGHT.JS                                                    */
+/*******************************************************************/
 .hljs
 {
   border: 1px solid #dcdcdc;
@@ -245,6 +305,27 @@ td.hljs-ln-numbers
   text-align: center;
 }
 
+.small-code
+{
+  font-size: 1.2em;
+  padding-right: 20px;
+}
+
+.medium-code
+{
+  font-size: 1.4em;
+  padding-right: 20px;
+}
+
+.large-code
+{
+  font-size: 1.6em;
+  padding-right: 20px;
+}
+
+/*******************************************************************/
+/* NAVIGATION                                                      */
+/*******************************************************************/
 .navbar-brand
 {
   color: #000;
@@ -263,8 +344,8 @@ a:hover.navbar-brand
 
 .nav-item
 {
-  font-size: 1.8em;
-  padding-left: 40px;
+  font-size: 1.6em;
+  padding-left: 25px;
 }
 
 @media (max-width: 991.98px)
@@ -276,7 +357,7 @@ a:hover.navbar-brand
 
   .nav-item
   {
-    font-size: 1.4em;
+    font-size: 1.350em;
     padding-left: 20px;
   }
 }
@@ -291,4 +372,75 @@ a:link.nav-link
 a:hover.nav-link
 {
   color: #afafaf !important;
+}
+
+/*******************************************************************/
+/* LISTS                                                           */
+/*******************************************************************/
+ul.procon-list
+{
+  list-style: circle;
+  padding-left: 20px;
+}
+
+ul.procon-list li
+{
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+ul.normal-list
+{
+  list-style: disc;
+  padding-left: 40px;
+
+}
+
+ul.normal-list li
+{
+  font-size: 1.8em;
+  line-height: 2em;
+  padding-top: 10px;
+}
+
+ol.req-list
+{
+  counter-reset: alpha;
+  padding-left: 40px;
+
+}
+
+ol.req-list li
+{
+  font-size: 1.8em;
+  line-height: 2em;
+  padding-top: 10px;
+}
+
+ol.req-list > li:before
+{
+  counter-increment: alpha;
+  content:"(" counter(alpha, lower-alpha)") ";
+  font-weight: 600;
+}
+
+ol.num-list
+{
+  counter-reset: section;
+  padding-left: 40px;
+
+}
+
+ol.num-list li
+{
+  font-size: 1.8em;
+  line-height: 2em;
+  padding-bottom: 20px;
+}
+
+ol.num-list > li:before
+{
+  counter-increment: section;
+  content:"(" counter(section)") ";
+  font-weight: 600;
 }
