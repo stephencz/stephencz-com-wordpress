@@ -18,9 +18,7 @@
       <li class="nav-item">
         <a class="nav-link" href="https://www.stephencz.com/archive">Archive</a>
       </li>
-      <li class="nav-item nav-email" id="email">
-        contact@stephencz.com
-      </li>
+      <li class="nav-item nav-email" id="email"></li>
     </ul>
   </div>
 </nav>

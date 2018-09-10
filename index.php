@@ -19,4 +19,4 @@
 </div>
 </div>
 
-<?php get_template_part( 'php/includes/index-footer' ); ?>
+<?php get_template_part( 'php/includes/footer' ); ?>

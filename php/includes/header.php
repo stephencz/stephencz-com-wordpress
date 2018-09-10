@@ -28,12 +28,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="header-title" id="header"><a href="http://www.stephencz.com">Stephen Czekalski</a></div>
+        <div class="header-title"><a id="header" href="http://www.stephencz.com"></a></div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <div class="header-description" id="description">Personal Website</div>
+        <div class="header-description" id="description"></div>
       </div>
     </div>
   </div>
