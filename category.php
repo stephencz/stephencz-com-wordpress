@@ -3,9 +3,10 @@
 <div class="container padding-top-xl">
   <div class="row">
     <div class="col-md-3 order-last order-md-2">
+      <?php get_template_part( 'php/includes/featured' ); ?>
       <?php get_template_part( 'php/includes/resources' ); ?>
     </div>
-    <div class="col-md-9 order-md-2 order-md-1 padding-bottom-xl">
+    <div class="col-md-8 order-md-2 order-md-1 padding-bottom-xl">
 
       <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post();

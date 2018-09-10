@@ -9,41 +9,31 @@
 
   <!-- Additional Meta Tags -->
   <title>The Personal Website of Stephen Czekalski</title>
+  <meta name="description" content="The personal website of Stephen Czekalski. ">
 
   <!-- CSS, Fonts, and Other Links-->
-  <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'template_directory' );?>/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'template_directory' );?>/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800" rel="stylesheet">
-
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  <link rel="stylesheet" href="<?php echo get_bloginfo( 'template_directory' );?>/css/treeview.css">
-
   <link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'template_directory' );?>/style.css">
 
   <?php wp_head(); ?>
 </head>
 <body>
 
-<div class="header-wrapper underline-light">
+<div class="header-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
-        <div class="header-title"><a href="http://www.stephencz.com">Stephen Czekalski</a></div>
+      <div class="col-lg-12">
+        <div class="header-title" id="header"><a href="http://www.stephencz.com">Stephen Czekalski</a></div>
       </div>
-      <div class="col-lg-4">
-        <script>
-          (function() {
-            var cx = '005733939158944831360:fxbmxlkexx4';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="header-description" id="description">Personal Website</div>
       </div>
     </div>
   </div>
