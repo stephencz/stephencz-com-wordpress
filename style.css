@@ -54,6 +54,8 @@ p
   text-rendering: optimizelegibility !important;
 }
 
+em { font-style: italic; }
+
 a:active,
 a:visited,
 a:link
@@ -394,3 +396,60 @@ ul.indent-list li { }
 {
   color: #afafaf;
 }
+
+/*******************************************************************/
+/* ARCHIVE LISTS                                                   */
+/*******************************************************************/
+
+ul.relevance-list
+{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul.month-list
+{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul.month-list li { }
+
+ul.category-list
+{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li.categories
+{
+  font-size: 0px;
+  height: 0px;
+  padding: 0px;
+}
+
+ul.category-list li ul
+{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 1.6rem;
+}
+
+.cat-item
+{
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.children > .cat-item
+{
+  list-style: square;
+  margin-left: 20px;
+  font-size: 1.6rem;
+}
+
+ul.category-list li { }

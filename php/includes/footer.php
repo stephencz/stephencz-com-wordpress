@@ -15,7 +15,9 @@
 
 <script>
 $(document).ready(function() {
+
   var cookie = Cookies.get('shouldType');
+
   if(cookie == null){
     Cookies.set('shouldType', 'true', { expires: 7 });
     cookie = Cookies.get('shouldType')
@@ -24,13 +26,13 @@ $(document).ready(function() {
   if(cookie == "true"){
     new TypeIt('#header', {
       strings: 'Stephen Czekalski',
-      speed: 50,
+      speed: 60,
       startDelay: 900
     }).destroy();
 
     new TypeIt('#description', {
       strings: 'Personal Website',
-      speed: 40,
+      speed: 60,
       startDelay: 2000
     }).destroy();
 
