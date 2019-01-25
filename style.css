@@ -136,7 +136,7 @@ ol li
   font-size: 5em;
   font-weight: 700;
   text-align: center;
-  height: 75px;
+  min-height: 75px;
 }
 
 .header-title a:active,
