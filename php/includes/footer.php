@@ -30,25 +30,11 @@ $(document).ready(function() {
       startDelay: 900
     }).destroy();
 
-    new TypeIt('#description', {
-      strings: 'Personal Website',
-      speed: 60,
-      startDelay: 2000
-    }).destroy();
-
-    new TypeIt('#email', {
-      strings: 'contact@stephencz.com',
-      speed: 60,
-      startDelay: 4000
-    }).destroy();
-
     Cookies.set('shouldType', 'false', { expires: 7 });
   }
   else
   {
     $('#header').text('Stephen Czekalski');
-    $('#description').text('Personal Website');
-    $('#email').text('contact@stephencz.com');
   }
 });
 
