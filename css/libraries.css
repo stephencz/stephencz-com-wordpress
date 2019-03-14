@@ -33,25 +33,30 @@
 /*******************************************************************/
 /* Table of Contents Code I Found Somewhere and Modified           */
 /*******************************************************************/
-#toc-container {
-    background: #f9f9f9 none repeat scroll 0 0;
-    border: 1px solid #aaa;
+#toc-container
+{
     display: table;
-    margin-bottom: 30px;
     width: 100%;
+
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
+
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
 }
 
-#toc-title {
+#toc-title
+{
     font-weight: 700;
-    background-color: #f1f1f1;
     padding-left: 20px;
+    background-color: #f1f1f1;
 }
 
 #toc-container li,
 #toc-container ul,
-#toc-container ul li{
+#toc-container ul li
+{
     list-style: outside none none !important;
 }
 
@@ -59,16 +64,18 @@
 {
   margin-left: 0px;
   padding-bottom: 10px;
-
+  padding-left: 20px;
 }
 
 #toc-container ul li
 {
   padding-bottom: 0px;
+  font-size: 1.6em;
 }
 
 #toc-container ul li ul li
 {
-  font-size: 1em;
+  font-size: 0.8em;
   padding-left: 10px;
+  padding-top: 5px;
 }
