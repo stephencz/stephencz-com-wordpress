@@ -1,0 +1,31 @@
+/*******************************************************************/
+/* HIGHLIGHT.JS                                                    */
+/*******************************************************************/
+.hljs
+{
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+  width: 100%;
+}
+
+.hljs-ln td
+{
+  padding-left: 0.2em !important;
+  padding-right: 0.2em !important;
+  padding-top: 0.1em !important;
+}
+
+.small-code
+{
+  font-size: 1.2em;
+}
+
+.medium-code
+{
+  font-size: 1.4em;
+}
+
+.large-code
+{
+  font-size: 1.6em;
+}
