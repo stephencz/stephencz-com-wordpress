@@ -36,16 +36,13 @@
 .height-threeq-vh { min-height: 75vh; }
 .height-full-vh { min-height: 100vh; }
 
-a.footnote
-{
-  font-size: 0.7em;
-  vertical-align: super;
-}
-
 ol.number-list
 {
   counter-reset: section;
   list-style: none;
+
+  padding: 20px 0px 20px 40px;
+  font-size: 1.6em;
 }
 
 ol.number-list > li:before
@@ -60,11 +57,13 @@ ol.number-list > li
   list-style: none;
 }
 
-
 ol.letter-list
 {
   counter-reset: section;
   list-style: none;
+
+  padding: 20px 0px 20px 40px;
+  font-size: 1.6em;
 }
 
 ol.letter-list > li:before
@@ -77,4 +76,37 @@ ol.letter-list > li:before
 ol.letter-list > li
 {
   list-style: none;
+}
+
+ol.footnotes
+{
+  counter-reset: section;
+  list-style: none;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+  margin-top: 30px;
+}
+
+ol.footnotes > li:before
+{
+  content: "[" counter(section, decimal) "] ";
+  counter-increment: section;
+  font-weight: bold;
+}
+
+ol.footnotes > li
+{
+  list-style: none;
+  font-size: 1.4em;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a.footnote
+{
+  font-size: 0.7em;
+  vertical-align: super;
 }

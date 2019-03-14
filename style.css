@@ -77,38 +77,11 @@ pre
   margin-bottom: 30px;
 }
 
-ul
-{
-  list-style: circle;
-  padding-left: 20px;
-  margin-left: 20px;
-}
-
-ul li
-{
-  font-size: 1.6em;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-ol
-{
-  list-style: decimal;
-  padding-left: 40px;
-}
-
-ol li
-{
-  font-size: 1.6em;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 blockquote
 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  padding: 5px 0px 0px 40px;
 }
 
 blockquote p
