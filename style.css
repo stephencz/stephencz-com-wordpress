@@ -61,7 +61,7 @@ a:active,
 a:visited,
 a:link
 {
-  color: #61aeee;
+  color: #69a4f3;
   text-decoration: none;
 }
 
@@ -187,7 +187,7 @@ blockquote p
 
 .nav-email
 {
-    color: #4976b1;
+    color: #69a4f3;
     font-size: 1.6em;
     padding-top: 14px;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
