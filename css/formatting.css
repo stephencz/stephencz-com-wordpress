@@ -41,7 +41,7 @@ ol.number-list
   counter-reset: section;
   list-style: none;
 
-  padding: 20px 0px 20px 40px;
+  padding: 20px 0px 15px 40px;
   font-size: 1.6em;
 }
 
@@ -62,7 +62,7 @@ ol.letter-list
   counter-reset: section;
   list-style: none;
 
-  padding: 20px 0px 20px 40px;
+  padding: 20px 0px 15px 40px;
   font-size: 1.6em;
 }
 

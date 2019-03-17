@@ -82,6 +82,7 @@ blockquote
   display: flex;
   flex-direction: row;
   padding: 5px 0px 0px 40px;
+  margin: 0px;
 }
 
 blockquote p
@@ -202,7 +203,7 @@ blockquote p
 /*******************************************************************/
 .post-title
 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 600;
   padding-bottom: 5px;
 }
