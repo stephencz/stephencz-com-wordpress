@@ -1,4 +1,4 @@
-# stephencz-com-wordpress
+# wp-stephencz-com
 The source code for the wordpress theme I used in the past.
 
 ## Screenshot
